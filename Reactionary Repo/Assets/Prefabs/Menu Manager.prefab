@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &867648491636644566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867648491636644560}
+  - component: {fileID: 867648491636644567}
+  - component: {fileID: 792403281}
+  m_Layer: 0
+  m_Name: Menu Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &867648491636644560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867648491636644566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &867648491636644567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867648491636644566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0960a66a8579fd541b41e0907892bdfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g_pauseMenu: {fileID: 0}
+  g_resultMenu: {fileID: 0}
+  g_healthUI: {fileID: 0}
+  g_deathUI: {fileID: 0}
+  t_gameStats: {fileID: 0}
+  t_AIStats: {fileID: 0}
+  t_waveCompleteNumber: {fileID: 0}
+  t_waveStartingNumber: {fileID: 0}
+  m_cUIResultsText: {fileID: 0}
+  m_cheatCodeGodModeText: {fileID: 0}
+  m_cSaveGameFeedback: {fileID: 0}
+  m_cDowntimeTimerText: {fileID: 0}
+  t_deathScoreText: {fileID: 0}
+  i_statusImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  i_enemyTypeImages:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  g_firePowerhUI: {fileID: 0}
+  g_icePowerUI: {fileID: 0}
+  g_lightningPowerUI: {fileID: 0}
+  m_playerStat: {fileID: 0}
+  m_healthBar: {fileID: 0}
+  a_gameMusic: {fileID: 0}
+  b_isPaused: 0
+--- !u!114 &792403281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867648491636644566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d62e98a85fb19c940aba405eade159a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 9bbdc41398a0a824bb2456c1302d8c7a, type: 2}
+  musicSlider: {fileID: 0}
+  sfxSlider: {fileID: 0}
+  masterSlider: {fileID: 0}
+  musicSliderValue: 0
+  sfxSliderValue: 0
+  masterSliderValue: 0

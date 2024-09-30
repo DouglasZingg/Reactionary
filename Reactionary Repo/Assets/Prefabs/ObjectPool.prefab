@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4961486819717573444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4961486819717573446}
+  - component: {fileID: 4961486819717573447}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4961486819717573446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961486819717573444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8292954, y: 59.515617, z: -106.17435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4961486819717573447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4961486819717573444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d536199e7d3c5ac4097276bdaf38049e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cMagicBoltObject: {fileID: 4577815294933345409, guid: 76ddee81a3a86754d9d7acb744ca096d, type: 3}
+  m_nNumMagicBolts: 25
+  m_cPooledMagicBolts: []
+  m_cHeadBangerObject: {fileID: 684936878154669629, guid: e4b5cac3f4f20ba45ac30c70bb954e24, type: 3}
+  m_nNumHeadBangers: 50
+  m_cPooledHeadBangers: []
+  m_cFireHeadBangerObject: {fileID: 5183672124560794244, guid: 5498cc16b8f8a0f468e2582047bfe6c7, type: 3}
+  m_nNumFireHeadBangers: 50
+  m_cPooledFireHeadBangers: []
+  m_cIceHeadBangerObject: {fileID: 5836803150583923293, guid: 359ff364417396e48987941d77452e38, type: 3}
+  m_nNumIceHeadBangers: 50
+  m_cPooledIceHeadBangers: []
+  m_cLightningHeadBangerObject: {fileID: 6481562982852794435, guid: c7d26760b5f002947b8b5e5c7ed826b6, type: 3}
+  m_nNumLightningHeadBangers: 50
+  m_cPooledLightningHeadBangers: []
